@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar - 1</title>
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Remix Icon CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <div id="container">
+        <div class="nav">
+            <div class="logo">
+                <a href="#">Tec<span class="store">store</span></a>
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Connect</a>
+                <i id="closed" class="ri-close-line none"></i>
+            </div>
+            <div class="nav-right">
+                <a class="cart-btn">
+                  <div class="cart-btn-content">
+                    <i id="cart" class="ri-shopping-cart-fill"></i>
+                    <span href="#" id="cart-num">10</span>
+                  </div>
+                </a>
+                <i id="menu" class="ri-menu-3-line none"></i>
+            </div>
+        </div>
+    </div>
+
+<!-- GSAP Animation CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- JavaScript File Link -->
+<script src="main.js"></script>
+</body>
+</html>
